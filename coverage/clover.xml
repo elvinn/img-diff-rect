@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1596712933268" clover="3.2.0">
+  <project timestamp="1596712933268" name="All files">
+    <metrics statements="55" coveredstatements="52" conditionals="21" coveredconditionals="16" methods="12" coveredmethods="12" elements="88" coveredelements="80" complexity="0" loc="55" ncloc="55" packages="1" files="2" classes="2"/>
+    <file name="index.ts" path="/Users/elvin/Code/img-diff-rect/src/index.ts">
+      <metrics statements="16" coveredstatements="14" conditionals="7" coveredconditionals="5" methods="1" coveredmethods="1"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="2" count="1" type="stmt"/>
+      <line num="16" count="1" type="stmt"/>
+      <line num="17" count="2" type="cond" truecount="1" falsecount="0"/>
+      <line num="18" count="2" type="cond" truecount="1" falsecount="1"/>
+      <line num="19" count="0" type="stmt"/>
+      <line num="22" count="2" type="cond" truecount="1" falsecount="1"/>
+      <line num="23" count="0" type="stmt"/>
+      <line num="26" count="2" type="stmt"/>
+      <line num="28" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="29" count="1" type="stmt"/>
+      <line num="32" count="1" type="stmt"/>
+      <line num="33" count="1" type="stmt"/>
+      <line num="34" count="1" type="stmt"/>
+      <line num="39" count="1" type="stmt"/>
+      <line num="46" count="1" type="stmt"/>
+    </file>
+    <file name="util.ts" path="/Users/elvin/Code/img-diff-rect/src/util.ts">
+      <metrics statements="39" coveredstatements="38" conditionals="14" coveredconditionals="11" methods="11" coveredmethods="11"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="2" count="1" type="stmt"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="4" count="1" type="stmt"/>
+      <line num="5" count="1" type="stmt"/>
+      <line num="10" count="1" type="stmt"/>
+      <line num="11" count="4" type="stmt"/>
+      <line num="12" count="4" type="stmt"/>
+      <line num="13" count="4" type="cond" truecount="1" falsecount="1"/>
+      <line num="14" count="0" type="stmt"/>
+      <line num="16" count="4" type="stmt"/>
+      <line num="21" count="1" type="stmt"/>
+      <line num="22" count="2" type="stmt"/>
+      <line num="23" count="2" type="stmt"/>
+      <line num="25" count="2" type="stmt"/>
+      <line num="26" count="5" type="cond" truecount="3" falsecount="1"/>
+      <line num="29" count="4" type="cond" truecount="3" falsecount="1"/>
+      <line num="31" count="2" type="cond" truecount="4" falsecount="0"/>
+      <line num="32" count="1" type="stmt"/>
+      <line num="35" count="1" type="stmt"/>
+      <line num="38" count="1" type="stmt"/>
+      <line num="39" count="2" type="stmt"/>
+      <line num="40" count="2" type="stmt"/>
+      <line num="41" count="2" type="stmt"/>
+      <line num="42" count="2" type="stmt"/>
+      <line num="44" count="2" type="stmt"/>
+      <line num="45" count="4" type="stmt"/>
+      <line num="46" count="4" type="stmt"/>
+      <line num="47" count="4" type="stmt"/>
+      <line num="48" count="4" type="stmt"/>
+      <line num="49" count="4" type="stmt"/>
+      <line num="53" count="2" type="stmt"/>
+      <line num="54" count="2" type="stmt"/>
+      <line num="55" count="2" type="stmt"/>
+      <line num="56" count="2" type="stmt"/>
+      <line num="57" count="2" type="stmt"/>
+      <line num="60" count="2" type="stmt"/>
+      <line num="61" count="2" type="stmt"/>
+      <line num="64" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>
