@@ -22,3 +22,28 @@ test('No difference', async () => {
 
   expect(result.isDifferent).toBe(false);
 });
+
+test('Wrong file path', async () => {
+  await expect(
+    imgDiffRect({
+      originImg,
+      expectedImg: join(__dirname, './images/none'),
+    }),
+  ).rejects.toThrow('ENOENT: no such file or directory');
+});
+
+test('No Params', async () => {
+  await expect(
+    imgDiffRect({
+      originImg: '',
+      expectedImg: '',
+    }),
+  ).rejects.toThrow('Option originImg is required!');
+
+  await expect(
+    imgDiffRect({
+      originImg,
+      expectedImg: '',
+    }),
+  ).rejects.toThrow('Option expectedImg is required!');
+});

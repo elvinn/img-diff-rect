@@ -15,11 +15,11 @@ interface DifferResult {
 
 const main = async (option: DifferOption): Promise<DifferResult> => {
   const { originImg, expectedImg, outputDir = './' } = option;
-  if (typeof originImg !== 'string') {
+  if (typeof originImg !== 'string' || !originImg) {
     throw new Error('Option originImg is required!');
   }
 
-  if (typeof expectedImg !== 'string') {
+  if (typeof expectedImg !== 'string' || !expectedImg) {
     throw new Error('Option expectedImg is required!');
   }
 

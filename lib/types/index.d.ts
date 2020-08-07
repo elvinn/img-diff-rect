@@ -4,4 +4,13 @@ declare type Rect = {
     width: number;
     height: number;
 };
-export { Rect };
+declare type MatchingRegions = {
+    bounding: Rect;
+    center: Rect;
+    diffMarkers: Rect[];
+}[];
+declare type DetectDiffResult = {
+    matches: MatchingRegions[];
+    strayingRects: Rect[][];
+};
+export { Rect, MatchingRegions, DetectDiffResult };

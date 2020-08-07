@@ -1,7 +1,7 @@
 {
   "name": "img-diff-rect",
-  "version": "1.0.0",
-  "description": "mark two images differences in red rectangles",
+  "version": "1.0.1",
+  "description": "mark differences of two images in rectangles",
   "main": "./lib/index.js",
   "scripts": {
     "build": "tsc",
@@ -13,6 +13,15 @@
     "image difference",
     "rectangle"
   ],
+  "bugs": {
+    "url": "https://github.com/elvinn/img-diff-rect/issues"
+  },
+  "homepage": "https://github.com/elvinn/img-diff-rect",
+  "registry": "https://registry.npmjs.org/img-diff-rect",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/elvinn/img-diff-rect.git"
+  },
   "author": "elvinn",
   "license": "MIT",
   "devDependencies": {

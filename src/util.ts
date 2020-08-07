@@ -23,10 +23,10 @@ const calDiff = async (imgPath1: string, imgPath2: string): Promise<DetectDiffRe
   const diffResult = await detectDiff(image1, image2);
 
   const hasDiffMarkers = !!diffResult.matches.find((m) => {
-    return m.find(({ diffMarkers }) => diffMarkers?.length);
+    return m.find(({ diffMarkers }) => diffMarkers && diffMarkers.length);
   });
 
-  const hasStrayingRects = !!diffResult.strayingRects.find((rectList) => rectList?.length);
+  const hasStrayingRects = !!diffResult.strayingRects.find((rectList) => rectList && rectList.length);
 
   if (!hasDiffMarkers && !hasStrayingRects) {
     return null;
