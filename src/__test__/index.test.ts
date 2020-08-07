@@ -1,5 +1,5 @@
 import { join } from 'path';
-import imgDiffRect from '../index';
+import imgDiffRect = require('../index');
 
 const originImg = join(__dirname, './images/origin.png');
 const expectedImg = join(__dirname, './images/expected.png');

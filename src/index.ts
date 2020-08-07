@@ -43,4 +43,4 @@ const main = async (option: DifferOption): Promise<DifferResult> => {
   };
 };
 
-export default main;
+export = main;
